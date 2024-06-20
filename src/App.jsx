@@ -2,6 +2,7 @@ import React from 'react'
 import {Container, Box} from '@chakra-ui/react'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import TextInput from './components/TextInput'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
     >
       <Container maxWidth='3xl' centerContent>
         <Header />
+        <TextInput />
         <Footer />
       </Container>
       
